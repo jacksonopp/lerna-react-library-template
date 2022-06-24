@@ -4,5 +4,10 @@
   "devDependencies": {
     "lerna": "^5.1.6",
     "nx": "^14.3.6"
+  },
+  "scripts": {
+    "build": "lerna run build",
+    "bootstrap": "lerna bootstrap",
+    "dev": "lerna run dev"
   }
 }
